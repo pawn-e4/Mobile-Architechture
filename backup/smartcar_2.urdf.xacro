@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://ros.org/wiki/xacro" name="smart_car">
+
+  <!-- ================= Parameters ================= -->
+  <xacro:property name="wheel_diameter" value="0.2"/> <!-- DEBUG: Increased wheel diameter -->
+  <xacro:property name="wheel_radius" value="${wheel_diameter/2.0}"/>
+  <xacro:property name="wheel_width" value="0.05"/> <!-- DEBUG: Increased wheel width -->
+  <xacro:property name="wheelbase_length" value="0.257"/>
+  <xacro:property name="wheelbase_width" value="0.17"/>
+
+  <!-- ================= Base & Chassis ================= -->
+  <link name="base_link">
+    <visual>
+      <geometry>
+        <box size="0.1 0.1 0.01"/>
+      </geometry>
+      <material name="white">
+        <color rgba="1 1 1 1"/>
+      </material>
+    </visual>
+  </link>
+
+  <link name="chassis_link">
+    <inertial>
+      <origin xyz="0 0 0.05" rpy="0 0 0"/>
+      <mass value="2.0"/>
+      <inertia ixx="0.02" iyy="0.02" izz="0.04" ixy="0.0" ixz="0.0" iyz="0.0"/>
+    </inertial>
+    <visual>
+      <geometry>
+        <box size="${wheelbase_length} ${wheelbase_width} 0.05"/>
+      </geometry>
+      <material name="blue">
+        <color rgba="0 0 1 1"/>
+      </material>
+    </visual>
+    <collision>
+      <geometry>
+        <box size="${wheelbase_length} ${wheelbase_width} 0.05"/>
+      </geometry>
+    </collision>
+  </link>
+
