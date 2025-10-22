@@ -1,0 +1,39 @@
+[0.038s] Invoking command in '/home/ros2/assignment/build/smartcar_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ros2/assignment/build/smartcar_msgs -- -j8 -l8
+[0.152s] [  3%] Built target smartcar_msgs__cpp
+[0.155s] [ 12%] Built target smartcar_msgs__rosidl_generator_c
+[0.202s] [ 12%] Built target ament_cmake_python_copy_smartcar_msgs
+[0.215s] [ 16%] [32mBuilding CXX object CMakeFiles/smartcar_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/smartcar_msgs/msg/status__type_support.cpp.o[0m
+[0.215s] [ 19%] [32mBuilding CXX object CMakeFiles/smartcar_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/smartcar_msgs/msg/detail/status__type_support.cpp.o[0m
+[0.216s] [ 22%] [32mBuilding CXX object CMakeFiles/smartcar_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/smartcar_msgs/msg/detail/dds_fastrtps/status__type_support.cpp.o[0m
+[0.268s] [ 25%] [32mBuilding CXX object CMakeFiles/smartcar_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/smartcar_msgs/msg/detail/status__type_support_c.cpp.o[0m
+[0.272s] [ 35%] Built target smartcar_msgs__rosidl_typesupport_c
+[0.280s] [ 45%] Built target smartcar_msgs__rosidl_typesupport_introspection_c
+[0.373s] [ 48%] [32m[1mLinking CXX shared library libsmartcar_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[0.374s] [ 51%] [32m[1mLinking CXX shared library libsmartcar_msgs__rosidl_typesupport_cpp.so[0m
+[0.478s] [ 58%] Built target smartcar_msgs__rosidl_typesupport_cpp
+[0.479s] [ 58%] Built target smartcar_msgs__rosidl_typesupport_introspection_cpp
+[0.497s] [ 61%] [32m[1mLinking CXX shared library libsmartcar_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[0.498s] [ 64%] [32m[1mLinking CXX shared library libsmartcar_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[0.719s] running egg_info
+[0.721s] writing smartcar_msgs.egg-info/PKG-INFO
+[0.721s] writing dependency_links to smartcar_msgs.egg-info/dependency_links.txt
+[0.721s] writing top-level names to smartcar_msgs.egg-info/top_level.txt
+[0.723s] [ 70%] Built target smartcar_msgs__rosidl_typesupport_fastrtps_c
+[0.724s] [ 70%] Built target smartcar_msgs__rosidl_typesupport_fastrtps_cpp
+[0.730s] reading manifest file 'smartcar_msgs.egg-info/SOURCES.txt'
+[0.732s] writing manifest file 'smartcar_msgs.egg-info/SOURCES.txt'
+[0.764s] [ 70%] Built target smartcar_msgs
+[0.787s] [ 70%] Built target ament_cmake_python_build_smartcar_msgs_egg
+[0.800s] [ 74%] Built target smartcar_msgs__py
+[0.846s] [ 77%] [32mBuilding C object CMakeFiles/smartcar_msgs__rosidl_generator_py.dir/rosidl_generator_py/smartcar_msgs/msg/_status_s.c.o[0m
+[0.919s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/smartcar_msgs/libsmartcar_msgs__rosidl_generator_py.so[0m
+[0.996s] [ 80%] Built target smartcar_msgs__rosidl_generator_py
+[1.038s] [ 90%] [32mBuilding C object CMakeFiles/smartcar_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/smartcar_msgs/_smartcar_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[1.038s] [ 90%] [32mBuilding C object CMakeFiles/smartcar_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/smartcar_msgs/_smartcar_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[1.038s] [ 90%] [32mBuilding C object CMakeFiles/smartcar_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/smartcar_msgs/_smartcar_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[1.066s] [100%] [32m[1mLinking C shared library rosidl_generator_py/smartcar_msgs/smartcar_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[1.066s] [100%] [32m[1mLinking C shared library rosidl_generator_py/smartcar_msgs/smartcar_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[1.066s] [100%] [32m[1mLinking C shared library rosidl_generator_py/smartcar_msgs/smartcar_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[1.129s] [100%] Built target smartcar_msgs__rosidl_typesupport_c__pyext
+[1.129s] [100%] Built target smartcar_msgs__rosidl_typesupport_fastrtps_c__pyext
+[1.130s] [100%] Built target smartcar_msgs__rosidl_typesupport_introspection_c__pyext
