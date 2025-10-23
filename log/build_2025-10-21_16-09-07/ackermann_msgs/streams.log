@@ -1,5 +1,0 @@
-[0.039s] Invoking command in '/home/ros2/assignment/build/ackermann_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ros2/assignment/build/ackermann_msgs -- -j8 -l8
-[0.096s] [0mCMake Error: The source directory "/home/ros2/assignment/src/ros2_gazebo_simulation/ackermann_msgs" does not exist.
-[0.096s] Specify --help for usage, or press the help button on the CMake GUI.[0m
-[0.100s] gmake: *** [Makefile:963: cmake_check_build_system] Error 1
-[0.106s] Invoked command in '/home/ros2/assignment/build/ackermann_msgs' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ros2/assignment/build/ackermann_msgs -- -j8 -l8

@@ -57,7 +57,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ros2/assignment/src/ros2_gazebo_simulation/car_gazebo_plugin
+CMAKE_SOURCE_DIR = /home/ros2/assignment/src/car_gazebo_plugin
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/ros2/assignment/build/car_gazebo_plugin

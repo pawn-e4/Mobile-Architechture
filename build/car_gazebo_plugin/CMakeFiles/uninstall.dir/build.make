@@ -53,7 +53,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ros2/assignment/src/ros2_gazebo_simulation/car_gazebo_plugin
+CMAKE_SOURCE_DIR = /home/ros2/assignment/src/car_gazebo_plugin
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/ros2/assignment/build/car_gazebo_plugin
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/ros2/assignment/build/car_gazebo_plugin && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ros2/assignment/src/ros2_gazebo_simulation/car_gazebo_plugin /home/ros2/assignment/src/ros2_gazebo_simulation/car_gazebo_plugin /home/ros2/assignment/build/car_gazebo_plugin /home/ros2/assignment/build/car_gazebo_plugin /home/ros2/assignment/build/car_gazebo_plugin/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ros2/assignment/build/car_gazebo_plugin && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ros2/assignment/src/car_gazebo_plugin /home/ros2/assignment/src/car_gazebo_plugin /home/ros2/assignment/build/car_gazebo_plugin /home/ros2/assignment/build/car_gazebo_plugin /home/ros2/assignment/build/car_gazebo_plugin/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

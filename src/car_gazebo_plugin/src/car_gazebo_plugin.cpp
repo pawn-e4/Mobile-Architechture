@@ -228,7 +228,7 @@ void CarGazeboPlugin::Update() {
     auto left_wheel_angle = get_joint("front_left_wheel_steer_joint")->Position(0);
     auto right_wheel_angle = get_joint("front_right_wheel_steer_joint")->Position(0);
 
-    auto anglar_vel_backwheel = (bl_axle_joint->GetVelocity(1) +  br_axle_joint->GetVelocity(1))/2.0f;
+    auto anglar_vel_backwheel = (bl_axle_joint->GetVelocity(1) +  br_axle_joint->GetVelocity(1))/2.0f;     // <------ changed both from 1 to 0
     
     auto steering_angle = (left_wheel_angle + right_wheel_angle) / 2.0;
     auto engine_speed = anglar_vel_backwheel * (60.0 / (2.0 * M_PI));
@@ -253,11 +253,11 @@ void CarGazeboPlugin::Update() {
     for (auto& j : joints_) {
       auto const& name = j.first;
       auto& joint = j.second.first;
-      auto position = joint->Position();
+      auto position = joint->Position(0);     // <------ used index 0
       msg.name.push_back(name);
       msg.position.push_back(position);
     }
-    //joint_state_pub_->publish(msg);
+    joint_state_pub_->publish(msg);           // <------ publish
     last_update_time_ = cur_time;
   }
 

@@ -268,7 +268,7 @@ ackermann_msgs_BINARY_DIR:STATIC=/home/ros2/assignment/build/ackermann_msgs
 ackermann_msgs_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
-ackermann_msgs_SOURCE_DIR:STATIC=/home/ros2/assignment/src/ros2_gazebo_simulation/ackermann_msgs
+ackermann_msgs_SOURCE_DIR:STATIC=/home/ros2/assignment/src/ackermann_msgs
 
 //Dependencies for the target
 ackermann_msgs__rosidl_generator_c_LIB_DEPENDS:STATIC=general;std_msgs::std_msgs__rosidl_generator_c;general;builtin_interfaces::builtin_interfaces__rosidl_generator_c;general;rosidl_runtime_c::rosidl_runtime_c;general;rcutils::rcutils;
@@ -550,7 +550,7 @@ CMAKE_GENERATOR_PLATFORM:INTERNAL=
 CMAKE_GENERATOR_TOOLSET:INTERNAL=
 //Source directory with the top level CMakeLists.txt file for this
 // project
-CMAKE_HOME_DIRECTORY:INTERNAL=/home/ros2/assignment/src/ros2_gazebo_simulation/ackermann_msgs
+CMAKE_HOME_DIRECTORY:INTERNAL=/home/ros2/assignment/src/ackermann_msgs
 //Install .so files without execute permission.
 CMAKE_INSTALL_SO_NO_EXE:INTERNAL=1
 //ADVANCED property for variable: CMAKE_LINKER

@@ -1,4 +1,4 @@
-# Install script for directory: /home/ros2/assignment/src/ros2_gazebo_simulation/ackermann_msgs
+# Install script for directory: /home/ros2/assignment/src/ackermann_msgs
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -364,11 +364,11 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ackermann_msgs/msg" TYPE FILE FILES "/home/ros2/assignment/src/ros2_gazebo_simulation/ackermann_msgs/msg/AckermannDrive.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ackermann_msgs/msg" TYPE FILE FILES "/home/ros2/assignment/src/ackermann_msgs/msg/AckermannDrive.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ackermann_msgs/msg" TYPE FILE FILES "/home/ros2/assignment/src/ros2_gazebo_simulation/ackermann_msgs/msg/AckermannDriveStamped.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ackermann_msgs/msg" TYPE FILE FILES "/home/ros2/assignment/src/ackermann_msgs/msg/AckermannDriveStamped.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -623,7 +623,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ackermann_msgs" TYPE FILE FILES "/home/ros2/assignment/src/ros2_gazebo_simulation/ackermann_msgs/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ackermann_msgs" TYPE FILE FILES "/home/ros2/assignment/src/ackermann_msgs/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)

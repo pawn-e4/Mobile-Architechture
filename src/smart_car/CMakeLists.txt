@@ -10,6 +10,8 @@ endif()
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(std_msgs REQUIRED)
+find_package(smartcar_msgs REQUIRED)
+
 
 
 
@@ -28,6 +30,17 @@ install(DIRECTORY urdf/
 install(DIRECTORY rviz/
   DESTINATION share/${PROJECT_NAME}/rviz
 )
+
+install(PROGRAMS
+  scripts/wheel_odometry.py
+  DESTINATION lib/${PROJECT_NAME}
+)
+
+install(PROGRAMS
+  scripts/joint_state_publisher.py
+  DESTINATION lib/${PROJECT_NAME}
+)
+
 
 
 # Package

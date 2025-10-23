@@ -1,0 +1,1 @@
+/home/ros2/assignment/src/smart_car/scripts/joint_state_publisher.py

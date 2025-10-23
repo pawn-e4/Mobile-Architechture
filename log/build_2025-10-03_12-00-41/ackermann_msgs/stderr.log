@@ -1,3 +1,0 @@
-[0mCMake Error: The source directory "/home/ros2/assignment/src/ros2_gazebo_simulation/ackermann_msgs" does not exist.
-Specify --help for usage, or press the help button on the CMake GUI.[0m
-gmake: *** [Makefile:963: cmake_check_build_system] Error 1

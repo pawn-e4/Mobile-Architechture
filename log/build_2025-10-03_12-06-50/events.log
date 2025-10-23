@@ -1,6 +1,0 @@
-[0.000000] (-) TimerEvent: {}
-[0.000313] (-) JobUnselected: {'identifier': 'ackermann_msgs'}
-[0.000378] (-) JobUnselected: {'identifier': 'car_gazebo_plugin'}
-[0.000428] (-) JobUnselected: {'identifier': 'smart_car'}
-[0.000478] (-) JobUnselected: {'identifier': 'smartcar_msgs'}
-[0.001186] (-) EventReactorShutdown: {}
