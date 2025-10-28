@@ -30,7 +30,7 @@ class JointStatePublisher(Node):
         self.engine_speed_rpm = 0.0
         self.steering_angle = 0.0
         self.position = 0.0  # wheel rotation
-        self.wheel_radius = 0.1  # meters
+        self.wheel_radius = 0.032  # meters (matches URDF)
 
         self.get_logger().info('Joint state publisher initialized using Gazebo clock.')
 
@@ -66,6 +66,11 @@ class JointStatePublisher(Node):
             self.position,        # front_right_wheel_joint
             self.position,        # back_left_wheel_joint
             self.position         # back_right_wheel_joint
+        ]
+        js.velocity = [
+            0.0, 0.0,
+            angular_velocity, angular_velocity,
+            angular_velocity, angular_velocity
         ]
 
         self.joint_pub.publish(js)
