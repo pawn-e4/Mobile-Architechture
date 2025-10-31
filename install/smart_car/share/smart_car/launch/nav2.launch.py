@@ -28,7 +28,8 @@ def generate_launch_description():
             'map': LaunchConfiguration('map'),
             'use_sim_time': 'True',
             'params_file': nav2_config,
-            'slam': 'False'
+            'slam': 'False',
+            'autostart': 'True'   # ✅ This makes lifecycle nodes activate automatically
         }.items(),
     )
 
